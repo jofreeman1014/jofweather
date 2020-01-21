@@ -22,7 +22,7 @@ body {
 }
 
 .selected{
-	border-color: rgb(153, 107, 153);
+	border-color: rgba(82, 121, 165, 0.836);
 	border-width: 3px;
 }
 
