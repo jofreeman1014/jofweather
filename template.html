@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <title>J. Freeman Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9083107a77.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <a class="navbar-brand portfolio" href="#mainpage">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item"></li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+              <ul class="navbar-nav mr-auto" style="padding-right: 100px;">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-sitemap"></i>
+                          Project List
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#worldweather">
+                            <i class="fas fa-cloud-sun-rain"></i>
+
+                              World Weather Trends
+                          </a>
+                          </div>
+                  </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="#" target="_blank">
+                          <span class="fas fa-file fa-fw fa-lg" aria-hidden="true"></span>    
+                          Resume
+                      </a>
+                  </li> -->
+              </ul>
+          </form>
+      </div>
+  </nav>
+
+  <div id="mainpage" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div class="row mt-1">
+          <div class="box col-md-8 col-sm-12" style="padding-top: 40px">
+              <div class = "container-fluid d-flex flex-column justify-content-center align-items-center">
+                  <h3 class="text-center text-info font-weight-bold" style="margin-top: 50px;">Welcome</h3>
+                  <p class="text-justify">My name is Julian Freeman, and this is my project portfolio webpage. Please feel free to scroll down to view completed projects, or select a project from the 
+                      dropdown menu above.
+                  </p>
+                  <p class="text-justify">My primary background is in physics research, with a focus on soft-condensed-matter and random-close-packing. Throughout my time as a researcher, 
+                      I have participated in numerous experiments and projects within my field, one of which culminated in published results in Condensed Matter Physics. 
+                  </p>
+                  <p class="text-justify">Please feel free to visit my other web pages below to connect with me.
+                  </p>
+                  <div class="social-media mt-2">
+                    <span><a class="social" href="https://www.linkedin.com/in/freeman-julian/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></span>
+                    <span><a class="social" href="https://github.com/jofreeman1014/" target="_blank"><i class="fab fa-github fa-2x"></i></a></span>
+                </div>
+              </div>
+          </div>
+  
+          <div class="box col-md-4 col-sm-12">
+              <img class="headshot img-thumbnail" src="./assets/images/pic.jpg" alt="profile pic">
+          </div>
+      </div>  
+  </div>
+
+        <!-- Template Code -->
+    <div id="worldweather" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h2 class="font-weight-normal mb-3"> World Weather Trends</h2>
+        <div class = "container">
+            <div class = "row">
+                <div class="box col-md-6 col-sm-12" style="padding-top: 40px">
+                    <p style="width: 500px">This project focused on observing different weather and climate patterns across the globe. Using an API, I pulled live weather data randomly on a global scale,
+                        then used Python to visualize the results. 
+                    </p>
+                    <h6 class="text-center">Tools and Techniques:</h6> 
+                    <ul>    
+                        <!-- <li data-toggle="tooltip" title="" data-original-title="Libraries pymongo, pickle (to save and load the model), sklearn, nltk, pandas, re (to clean up the data), tweepy (to use the Twitter API), searchtweets, seaborn, word cloud, and matplotlib.">Python</li>                       -->
+                        <li>Python (Matplotlib, Jupyter Notebook)</li>
+                        <li><a href="https://openweathermap.org/" target="_blank">OpenWeatherMap API</a></li>
+                        <li>Hosted through Github Pages</li>
+                    </ul>    
+                    <h6 class = "text-center"><a href="https://jofreeman1014.github.io/jofweather/" target="_blank"><small>Website Link</small></a></h6>
+                    <h6 class = "text-center"><a href="https://github.com/jofreeman1014/python/tree/master/Python-APIs" target="_blank"><small>Github Link</small></a></h6>
+                </div>
+                <div class="box col-md-6 col-sm-12">
+                    <img class="img-thumbnail" src="assets/images/LatLongDist.png" style = "margin-top: 40px;"alt="wwp image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer class="footer b-0 shadow-sm">
+      <!-- <span>© 2020 Julian Freeman. All rights reserved.</span> -->
+  </footer>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
+</body></html>
+
+
+
+  
