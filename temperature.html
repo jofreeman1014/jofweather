@@ -38,7 +38,7 @@
                             Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="temperature.html">
+                            <a class="dropdown-item active">
                                 <i class="fas fa-temperature-high"></i>
                                 Temperature vs. Lat</a>
                             <a class="dropdown-item" href="humidity.html">
@@ -65,12 +65,13 @@
         </div>
     </nav>
     <!--style = "float: right;"-->
+    <div id="main-wrapper">
     <div id="mainpage" class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="row mt-1" style="padding: 1%">
 
     <div class = "box col-md-8 col-sm-12">
         <h1>Temperature vs. Latitude</h1>
-        <img src="Resources/assets/images/Fig1.png" alt="Temperature" class="imgfit">
+        <img src="assets/images/LatvTemp.png" alt="Temperature" class="imgfit">
         <p>It is a well known fact that the temperature closest to the poles are among the coldest temperatures on Earth, 
             and conversely areas closer to the equator tend to be some of the hottest. Using our data, I find this fact to be 
             mostly true. While I was unable to pull data across all latitudes, the data does still show a trend that agrees 
@@ -82,16 +83,16 @@
         <div class="box">
             <div class="row">
                 <div class="col-md-6 col-sm-3" style="padding: 15px;">
-                    <img src="Resources/assets/images/Fig1.png" alt="Temperature" class="img-thumbnail selected">
+                    <img src="assets/images/LatvTemp.png" alt="Temperature" class="img-thumbnail selected">
                 </div>
                 <div class="col-md-6 col-sm-3" style="padding: 15px;">
-                    <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" class="img-thumbnail"></a>
+                    <a href="humidity.html"><img src="assets/images/LatvHum.png" alt="Humidity" class="img-thumbnail"></a>
                 </div>    
                 <div class="col-md-6 col-sm-3" style="padding: 15px;">
-                    <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="img-thumbnail"></a>
+                    <a href="cloudiness.html"><img src="assets/images/LatvCloud.png" alt="Cloudiness" class="img-thumbnail"></a>
                 </div>
                 <div class="col-md-6 col-sm-3" style="padding: 15px;">
-                    <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" class="img-thumbnail"></a>
+                    <a href="windspeed.html"><img src="assets/images/LatvWind.png" alt="Wind Speed" class="img-thumbnail"></a>
                 </div>    
             </div>
         </div>
@@ -101,6 +102,7 @@
 <footer class="footer b-0 shadow-sm">
     <span>© 2020 Julian Freeman. All rights reserved.</span>
 </footer>  
+</div>
 <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
